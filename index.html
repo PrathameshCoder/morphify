@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+  /*background-color: #97D9E1;*/
+  background-color: #FF3CAC;
+background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  margin-top: 30px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align:  center;
+  color: white;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+li {
+  margin: 10px 0;
+  padding-top: 25px;
+}
+
+ul li a {
+  /*
+  color: #333;
+  
+  transition: all 0.2s ease-in-out;
+  padding: 10px 20px;
+  background-color: #fff;
+  border-radius: 5px;*/
+  text-decoration: none;
+  font-family: 'Montserrat';
+font-size: 16px;
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+/*background-color: #0099cc;*/
+background-color:  #2B86C5;
+color: #fff;
+box-shadow: 2px 2px #666;
+cursor: pointer;
+transition: all 0.3s ease-in-out;
+
+}
+
+ul li a:hover {
+  /*
+  background-color: #333;
+  color: #fff;*/
+  background-color: #FF3CAC;
+box-shadow: 4px 4px #666;
+}
+
+
+/* Style for the navigation bar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*background:  #B721FF;*/
+    height: 80px;
+    padding: 0 50px;
+    background-color: #FF3CAC;
+background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+
+  }
+  
+  nav a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #000;
+    margin-right: 20px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  nav a:hover {
+    color: #000;
+    background-color: white;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav li {
+    margin: 0 10px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  nav li:hover {
+    transform: translateY(-5px);
+  }
+  
+  nav i {
+    font-size: 30px;
+    color: #fff;
+    margin-right: 10px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  nav i:hover {
+    color: #005580;
+    transform: rotate(180deg);
+  }
+
+    </style>
+    <title>File Converter</title>
+  </head>
+  <body>
+    <nav>
+      <div class="navbar">
+          <a href="index.html">Home</a>
+          <a href="help.html">Help</a>
+  
+      </div>
+      </nav>
+    <div>
+      <h2>Convert Image Files:</h2>
+      <ul>
+        <li><a href="/jpgtopng">JPG to PNG converter</a></li>
+        <li><a href="/pngtojpg">PNG to JPG converter</a></li>
+        <li><a href="/webptopng">WEBP to PNG converter</a></li>
+        <li><a href="/bmptopng">BMP to PNG converter</a></li>
+        <li><a href="/pngtopdf">PNG to PDF converter</a></li>
+      </ul>
+      <h2>Convert Audio/Video Files:</h2>
+      <ul>
+        <li><a href="/mp4tomp3">MP4 to MP3 converter</a></li>
+        <li><a href="/wavtomp3">WAV to MP3 converter</a></li>
+      </ul>
+      <h2>Convert Document Files:</h2>
+      <ul>
+        <li><a href="/doctopdf">DOC to PDF converter</a></li>
+        <li><a href="/xlsxtopdf">XLSX to PDF converter</a></li>
+        <li><a href="/xlsxtocsv">XLSX to CSV converter</a></li>
+        <li><a href="/txttodoc">TXT to DOC converter</a></li>
+      </ul>
+      
+    </div>
+  </body>
+</html>
