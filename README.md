@@ -16,7 +16,7 @@
 
 ## 📸 Preview
 
-> ![Morphify Screenshot](Index.png)
+> ![Morphify Screenshot](Index.PNG)
 
 ---
 
