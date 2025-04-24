@@ -80,7 +80,7 @@ Feel free to open issues or submit a pull request.
 
 📄 License
 
-This project is open-source.
+This project is open-source under the [MIT License](LICENSE)
 
 ✨ Author
 
